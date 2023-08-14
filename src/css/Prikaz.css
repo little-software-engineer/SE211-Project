@@ -1,0 +1,73 @@
+.root{
+    -fx-background-color:#e0e0e0;
+}
+#leftDown{
+    -fx-padding: 40 0 40 0  ;
+    -fx-min-height: 100;
+    -fx-max-height: 100;
+    -fx-min-width: 400;
+    -fx-border-color: black;
+}
+#leftDown .label{
+
+    -fx-spacing: 15;
+    -fx-border-width: 0;
+    -fx-padding: 0 0 0 15;   /* Top Right Bottom Left */
+
+}
+
+#tekst5, #tekst7, #tekst9{
+    -fx-padding: 5 0 0 0;
+}
+
+.text-field{
+    -fx-max-width: 100;
+    -fx-min-width: 100;
+}
+
+#leftUp{
+    -fx-padding: 40;
+    -fx-min-height: 350;
+    -fx-max-height: 400;
+    -fx-min-width: 400;
+    -fx-border-color: black;
+}
+#leftUpART{
+    -fx-padding: 40;
+    -fx-min-height: 400;
+    -fx-max-height: 450;
+    -fx-min-width: 400;
+    -fx-border-color: black;
+}
+.check-box > .box{
+    -fx-padding: 7px;
+}
+#unos, #dtm{
+    -fx-font-weight: bold;
+}
+#dtm{
+    -fx-min-width: 83;
+    -fx-max-width: 83;
+}
+#main{
+    -fx-padding: 50;
+}
+#tv{
+    -fx-min-height: 500;
+    -fx-min-width: 485;
+}
+.button{
+    -fx-background-color:#042331;
+    -fx-font-family: 'Roboto',sans-serif;
+    -fx-font-size: 15px;
+    -fx-text-fill: #e0e0e0;
+    -fx-max-height: 10;
+    -fx-max-width: 90;
+    -fx-min-width: 90;
+    -fx-font-weight: bold;
+}
+.button:hover{
+    -fx-background-color:#e0e0e0;
+    -fx-text-fill:#042331;
+}
+

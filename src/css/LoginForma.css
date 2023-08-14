@@ -1,0 +1,39 @@
+.root{
+    -fx-background-color:white;
+}
+#fieldLogin{
+    -fx-background-radius: 15;
+    -fx-max-height: 10;
+    -fx-max-width: 200;
+}
+#dugmeLogin{
+    -fx-background-radius: 15;
+    -fx-max-height: 10;
+    -fx-max-width: 90;
+    -fx-min-width: 90;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    /* -fx-font-family: "Bold";*/
+}
+#registruj{
+    -fx-background-radius: 15;
+    -fx-max-height: 10;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-underline: true;
+}
+#registruj:hover 
+{
+    -fx-text-fill: brown;
+} 
+#tekstLogin{
+    -fx-padding: 0 125 0 0;
+}
+#logo{
+    -fx-min-height:100;
+    -fx-max-height: 100;
+    -fx-max-width: 90;
+    -fx-min-width: 90;
+}
+

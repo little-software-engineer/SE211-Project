@@ -1,0 +1,37 @@
+.root{
+    -fx-background-color:#e0e0e0;
+}
+#sideMenu{
+    -fx-background-color:#042331;
+}
+.button{
+    -fx-background-color:#042331;
+    -fx-font-family: 'Roboto',sans-serif;
+    -fx-font-size: 15px;
+    -fx-text-fill: #e0e0e0;
+    -fx-max-height: 10;
+    /*-fx-max-width: 90;*/
+    -fx-min-width: 90;
+    -fx-font-weight: bold;
+}
+.button:hover{
+    -fx-background-color:#e0e0e0;
+    -fx-text-fill:#042331;
+}
+#header{
+    -fx-min-width: 600;
+    -fx-max-width: 600;
+}
+#footer{
+    -fx-min-width: 1450;
+    -fx-border-color: red;
+}
+#tv{
+    -fx-min-height: 532;
+    -fx-max-height: 532;
+    -fx-min-width: 600;
+    -fx-max-width: 600;
+}
+
+
+
